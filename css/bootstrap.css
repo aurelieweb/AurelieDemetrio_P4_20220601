@@ -2012,7 +2012,7 @@ pre code {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
 }
 
 .col-lg-1,
@@ -2066,7 +2066,7 @@ pre code {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
 }
 
 .col-xs-1,
@@ -2288,6 +2288,13 @@ pre code {
     margin-left: 0
 }
 
+.col-sm-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 @media (min-width:768px) {
     .col-sm-1,
     .col-sm-10,
@@ -2322,7 +2329,12 @@ pre code {
         width: 58.33333333%
     }
     .col-sm-6 {
-        width: 50%
+        width: 50%;
+        margin-top: 10px;
+        /*display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;*/
     }
     .col-sm-5 {
         width: 41.66666667%
