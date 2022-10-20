@@ -2068,6 +2068,18 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
 }
+/*.col-sm-12{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+}
+
+.col-sm-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}*/
 
 .col-xs-1,
 .col-xs-10,
@@ -2288,12 +2300,6 @@ pre code {
     margin-left: 0
 }
 
-.col-sm-6 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
 
 @media (min-width:768px) {
     .col-sm-1,
@@ -2311,7 +2317,7 @@ pre code {
         float: left
     }
     .col-sm-12 {
-        width: 100%
+        width: 100%;
     }
     .col-sm-11 {
         width: 91.66666667%
@@ -2331,10 +2337,6 @@ pre code {
     .col-sm-6 {
         width: 50%;
         margin-top: 10px;
-        /*display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;*/
     }
     .col-sm-5 {
         width: 41.66666667%
