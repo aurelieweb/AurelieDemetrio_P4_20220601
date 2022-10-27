@@ -1,3 +1,18 @@
+@font-face {
+    font-family: Cabin-Regular;
+    src: url(fonts/Cabin-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-italic;
+    src: url(fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Thin.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -90,10 +105,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
+/*.texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+}*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -361,6 +376,27 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
+.text-bold{
+    font-weight: 600;
+}
+
+.font-cabine{
+    font-family: Cabin-Regular;
+    font-size: 24px;
+}
+
+.font-roboto-italic{
+    font-family: roboto-italic;
+    font-size: 24px;
+}
+
+.font-roboto{
+    font-family: roboto;
+    font-size: 24px;
+}
+
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -756,13 +792,14 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(82, 65, 19, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
+    font-size: 24px;
 }
 
 .bgc-white {
