@@ -886,6 +886,16 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-center{
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
