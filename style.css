@@ -388,12 +388,12 @@ a:hover {
 
 .font-roboto-italic{
     font-family: roboto-italic;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .font-roboto{
     font-family: roboto;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 
@@ -472,9 +472,12 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    /*margin-top: 10px;
+    margin-bottom: 20px;*/
+    margin: 10px 20px 20px 20px;
 }
+
+
 
 .mg-lg {
     margin-top: 10px;
@@ -567,9 +570,12 @@ button {
 }
 
 a[data-lightbox] {
-    position: relative;
-    display: block;
+    /*position: relative;*/
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -816,7 +822,6 @@ h4 {
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
-    font-size: 24px;
 }
 
 .bgc-white {
